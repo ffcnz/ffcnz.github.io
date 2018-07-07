@@ -2,6 +2,10 @@ h1.title, h2.title, h3.title, p {
   word-break: break-word !important;
 }
 
+.nav > .container > .nav-right > .nav-item:last-child:not(.is-tab) {
+  padding-right: 20px;
+}
+
 .homepage-section {
   // padding-top: 20px;
   padding-bottom: 50px;
